@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better Late than Basic - Léo Abbaz</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+  <link href="../css/busy_base2.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css_projets/bltb.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+  <div class=wrapper>
+
+
+    <div class=sidebar>
+      <div class="sidebar-image">
+        <div class=inner><img src="../img/leo2022.webp"></div>
+      </div>
+      <div class=box>
+        <div class=inner>
+          <p>Liens</p>
+          <ul>
+            <li><a href="../">Accueil</a></li>
+            <li><a href="valley.html">'Round the Valley</a></li>
+            <li><a href="knights.html">Where the Knights Meet</a></li>
+            <li><a href="unsub.html">Unsubscribing</a></li>
+            <li><a href="maplabs.html">Map Labs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class=main-wrapper>
+
+      <div class=title>
+        <div class=box>
+          <div class=inner>
+            <h2>Better Late than Basic<br>Présentation et déroulement du projet.</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class=links>
+        <div class=box>
+          <div class=inner>
+            <ul>
+              <li><a href="#about">Présentation</a></li>
+              <li class=last><a href="#bts">Déroulement</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main single-column">
+        <div class=box>
+          <div class=inner id=about>
+            <h2>Présentation</h2>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v6sYC5fGBjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
+            <iframe src="https://itch.io/embed/1834418?linkback=true&amp;border_width=3&amp;bg_color=ffffff&amp;fg_color=ad171d&amp;link_color=073567&amp;border_color=37394c" width="556" height="171" frameborder="0"><a href="https://sleepytristan.itch.io/betterlatethanbasic">Better Late Than Basic by Sleepytristan, Léo, elootam, EtienneCmk, VictorCouturieux, WICHPA</a></iframe>
+            <ul>
+              <li>Équipe de 9</li>
+              <li>4 jours</li>
+              <li>Exercice du master JMIN</li>
+              <li>Unity, Git, Notion</li>
+            </ul>
+            <p>Better Late Than Basic (BLTB) est un jeu de course mêlant le goût de la vitesse à celui du style. Entre montagne et ville, dévalez son circuit escarpé et collectez un maximum d'éléments de tuning automobile afin d'arriver le premier, mais surtout le plus flowté.</p>
+          </div>
+        </div>
+
+        <div class="main single-column">
+          <div class=box>
+            <div class=inner id=bts>
+              <h2>Déroulement du projet</h2>
+              <p>Pour BLTB, j'ai pris la charge du level design, le reste du game design étant décidé collectivement.</p>
+              <p>Avec mon collègue game designer, nous avons dessiné sur papier un layout du circuit, les metrics étant définies avec les graphistes :</p>
+              <img src="img/bltb_layout.webp"><br>
+              <p>L'esthétique PS1 déjà établie, j'ai pensé réaliser le circuit à l'aide de ProBuilder. ProBuilder sera finalement utilisé pour la dernière partie du circuit, en ville, tandis que le reste sera construit sur un spline. Unity 2021 ne proposant pas de splines par défaut, nous avons utilisé le plugin de <a href="https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082">Sebastian Lague</a>. Ce plugin n'étant pas la panacée pour des raisons d'optimisation du temps et de workflow, un de nos graphistes finira d'assembler le circuit, quasiment fini à ce moment-là, sur Blender.</p>
+              <p>Au niveau du game design, je dois reconnaître que BLTB a quelques défauts de conception, comme l'absence de signalisation pour savoir si l'on roule dans le bon sens. Pour autant, je suis quand même satisfait de ce que l'on a produit en 4 jours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class=footer>
+        <div class=box>
+          <div class=inner>&copy; 2023 - Léo Abbaz. Base stylesheet & skin by <a href="https://eggramen.neocities.org/code/css_testpages" target=_blank>EGGRAMEN</a> - 2021.</div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

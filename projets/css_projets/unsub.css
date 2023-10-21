@@ -19,7 +19,8 @@ a, .links li:before, .links li:after, .links .last {
   }
   
 .sidebar-image img {
-  border-radius: 0.175em;
+  /*border-radius: 0.175em;*/
+  border-radius: 50%;
   border: 0px;
   }
 

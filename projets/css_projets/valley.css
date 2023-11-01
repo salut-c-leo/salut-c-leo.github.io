@@ -36,6 +36,10 @@ a, .links li:before, .links li:after, .links .last {
 	font-size: 12px;
 }
 
+b {
+  color: lightblue;
+}
+
 /*Alternate style of spacers for nav links. Replace with "" for no spacer characters.*/  
 .links li:before {
   content: "🚞";

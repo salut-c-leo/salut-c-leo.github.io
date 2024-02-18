@@ -100,6 +100,14 @@ body {
 .footer {
   margin-bottom: 25px;
   }
+
+.static-image {
+  display: none;
+}
+
+.mobile-text {
+  display: none;
+}
   
 @media(max-width:915px) {
   .wrapper {    
@@ -139,5 +147,26 @@ body {
   .footer {
     margin-bottom: 25px;
     }
-  
+ 
   }
+
+@media(max-width: 480px) {
+  .animated-image {
+    display: none;
+  }
+
+  .static-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mobile-text {
+    display: block;
+  }
+
+  .title {
+    display: none;
+  }
+
+}

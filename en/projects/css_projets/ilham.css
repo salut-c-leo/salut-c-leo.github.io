@@ -1,0 +1,22 @@
+@import url(common_projets_min.css);
+body {
+  background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("../../../img/ilhambg.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+b {
+  color: lightblue;
+}
+
+/*Alternate style of spacers for nav links. Replace with "" for no spacer characters.*/  
+.links li:before {
+  content: "🧠";
+}
+
+.links li:after {
+  content: "";
+}
+
+.links .last:after {
+  content: "🧠";
+}

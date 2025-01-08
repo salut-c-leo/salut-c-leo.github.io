@@ -54,6 +54,16 @@ body {
 .inner {
   
   }
+
+.link-list {
+  padding-left: 0.5em;
+  list-style-type: none;
+  line-height: 170%;
+}
+.list {
+  padding-left: 1em;
+  line-height: 170%;
+}
   
 /*Prevent image overflow.*/
 .box img, .sidebar img {

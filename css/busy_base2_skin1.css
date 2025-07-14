@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 
 body {
-  background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("../img/valley.jpg") no-repeat fixed;
+  background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("../img/valleybg.webp") no-repeat fixed;
   background-size: cover;
   font-family: "Readex Pro", Open Sans, sans-serif;
   }

@@ -1,6 +1,6 @@
 @import url(common_projets_min.css);
 body {
-  background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("../../img/blast_back.webp") no-repeat fixed;
+  background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("../img/blast_back.webp") no-repeat fixed;
   background-size: cover;
 }
 

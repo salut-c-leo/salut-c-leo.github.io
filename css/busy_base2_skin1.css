@@ -19,8 +19,8 @@ a, .links li:before, .links li:after, .links .last {
   }
   
 .sidebar-image img {
-  /*border-radius: 0.175em;*/
-  border-radius: 50%;
+  border-radius: 1.5em 0.175em;
+  /*border-radius: 50%;*/
   border: 0px;
   }
 
@@ -42,7 +42,7 @@ a, .links li:before, .links li:after, .links .last {
   }
 
 .links li:after {
-  content: " 🤨 ";
+  content: " 📝 ";
   }
 
 .links .last:after {
